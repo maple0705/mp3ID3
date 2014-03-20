@@ -2,14 +2,18 @@
 using System.IO;
 using System.Text;
 using Shell32;
+using iTunesLib;
 
 class mp3ID3 {
-    static void Main() {
+    /// <summary>
+    /// mp3ファイルをアルバム別に振り分けます。
+    /// </summary>
+    static void disribute() {
         string currentDir = System.Environment.CurrentDirectory;
         ShellClass shell = new ShellClass();
         Folder folder = shell.NameSpace(currentDir);
         DirectoryInfo di = new DirectoryInfo(currentDir);
-        FileInfo[] fiary = di.GetFiles("*.mp3");
+        FileInfo[] fiary = di.GetFiles("*.m4a");
         Encoding sjisEnc = Encoding.GetEncoding("Shift_JIS");
         StreamWriter sw = new StreamWriter(currentDir + "\\" + "log.txt", false, sjisEnc);
 
@@ -31,7 +35,7 @@ class mp3ID3 {
             sw.WriteLine(fi.FullName);
             sw.WriteLine("を");
             try {
-                fi.MoveTo(albumDir+"\\"+fi.Name);
+                fi.MoveTo(albumDir + "\\" + fi.Name);
             } catch (Exception e) {
                 Console.Error.WriteLine(e);
                 Console.Error.WriteLine("何かキーを押してください.");
@@ -44,5 +48,12 @@ class mp3ID3 {
         }
 
         sw.Close();
+    }
+
+    static void Main() {
+
+        disribute();
+
+        return;
     }
 }

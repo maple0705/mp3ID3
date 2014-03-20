@@ -1,0 +1,11 @@
+E:\プログラミング\C#\mp3ID3\mp3ID3\bin\Debug\mp3ID3.exe.config
+E:\プログラミング\C#\mp3ID3\mp3ID3\bin\Debug\mp3ID3.exe
+E:\プログラミング\C#\mp3ID3\mp3ID3\bin\Debug\mp3ID3.pdb
+E:\プログラミング\C#\mp3ID3\mp3ID3\bin\Debug\Interop.iTunesLib.dll
+E:\プログラミング\C#\mp3ID3\mp3ID3\bin\Debug\Interop.Shell32.dll
+E:\プログラミング\C#\mp3ID3\mp3ID3\obj\Debug\mp3ID3.csprojResolveAssemblyReference.cache
+E:\プログラミング\C#\mp3ID3\mp3ID3\obj\Debug\Interop.iTunesLib.dll
+E:\プログラミング\C#\mp3ID3\mp3ID3\obj\Debug\Interop.Shell32.dll
+E:\プログラミング\C#\mp3ID3\mp3ID3\obj\Debug\mp3ID3.csproj.ResolveComReference.cache
+E:\プログラミング\C#\mp3ID3\mp3ID3\obj\Debug\mp3ID3.exe
+E:\プログラミング\C#\mp3ID3\mp3ID3\obj\Debug\mp3ID3.pdb
